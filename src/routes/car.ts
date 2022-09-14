@@ -21,4 +21,7 @@ CarRoute.get('/cars/:id', (req: Request, res: Response) =>
 CarRoute.put('/cars/:id', (req: Request, res: Response) =>
   carController.update(req, res)); 
 
+CarRoute.delete('/cars/:id', (req: Request, res: Response) =>
+  carController.delete(req, res)); 
+
 export default CarRoute;
