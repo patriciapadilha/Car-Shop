@@ -83,7 +83,7 @@ describe('Car Service', () => {
 
 	// describe('function delete', () => {
 	// 	it('Success', async () => {
-	// 		const car = await carService.delete(carMockWithId._id);
+	// 		const car = await carService.delete('4edd40c86762e0fb12000003');
 	// 		expect(car).to.be.deep.equal(carMockWithId);
 	// 	});
 	// });
